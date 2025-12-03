@@ -1,43 +1,7 @@
 [tool.poetry]
 name = "descarteslabs-dynamic-compute"
-version = "1.6.0"
-description = ""
+version = "1.6.0post1"
+description = "Discontinued. Please use earthdaily-earthone-dynamic-compute instead."
 license = "Apache-2.0"
 authors = ["EarthDaily"]
 readme = "README.md"
-packages = [
-    { include = "descarteslabs" },
-]
-
-[tool.poetry.dependencies]
-python = ">=3.10, <3.13"
-ipyleaflet = ">=0.15.0"
-shapely = ">2,<3"
-utm = "^0.7.0"
-pandas = ">=2.2"
-pyproj = [
-    {version = "<=3.4.1", python = "<3.12"},
-    {version = ">=3.6.1", python = ">=3.12"}
-]
-geojson = ">=2.5.0"
-numpy = [
-    {version = "<=2.0.2", python = "<3.11"},
-    {version = "<3", python = ">=3.11"}
-]
-pyzmq = [
-    {version = "<=26.0.3", python = "<3.12"},
-    {version = ">=25.1.1", python = ">=3.12"}
-]
-cloudpickle = "3.0.0"
-certifi = ">=2023.7.22"
-imagecodecs = [
-    {version = "<=2023.3.16", python = "<3.12"},
-    {version = ">=2023.7.4", python = ">=3.12"}
-]
-matplotlib = ">3.6"
-earthdaily-earthone = "^5.0.0b1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
