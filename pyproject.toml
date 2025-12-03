@@ -6,7 +6,7 @@ license = "Apache-2.0"
 authors = ["EarthDaily"]
 readme = "README.md"
 packages = [
-    { include = "descarteslabs/dynamic-compute" },
+    { include = "descarteslabs-dynamic-compute" },
 ]
 
 [tool.poetry.dependencies]
