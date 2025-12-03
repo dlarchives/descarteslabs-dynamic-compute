@@ -20,7 +20,7 @@ version = "1.6.0post1"
 
 def do_setup():
     setup(
-        name="descarteslabs",
+        name="descarteslabs-dynamic-compute",
         description="Discontinued. Please use earthdaily-earthone-dynamic-compute instead.",
         long_description="Discontinued. Please use earthdaily-earthone-dynamic-compute instead.",
         author="EarthDaily Analytics",
