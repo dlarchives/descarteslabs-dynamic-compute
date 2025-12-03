@@ -5,3 +5,6 @@ description = "Discontinued. Please use earthdaily-earthone-dynamic-compute inst
 license = "Apache-2.0"
 authors = ["EarthDaily"]
 readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
